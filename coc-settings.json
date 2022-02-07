@@ -1,0 +1,11 @@
+{
+  "coc.preferences.formatOnType": true,
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "javascriptreact", "typescript", "typescriptreact", "json", "rust", "graphql", "go"],
+  "languageserver": {
+    "ocaml-lsp": {
+        "command": "opam",
+        "args": ["config", "exec", "--", "ocamllsp"],
+        "filetypes": ["ocaml", "reason"]
+      }
+  }
+}
